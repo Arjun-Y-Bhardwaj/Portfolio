@@ -9,14 +9,14 @@ export default function Project() {
         {
             id: uuidv4(),
             name: 'Todo App',
-            link: 'xyz.com',
+            link: 'https://github.com/Arjun-Y-Bhardwaj/Todo-List'it,
             discription: 'A todo list made using HTML, CSS and JAVASCRIPT.',
             image: todo
         },
         {
             id: uuidv4(),
             name: 'Banking',
-            link: 'xyz.com',
+            link: 'https://banking-ayb.netlify.app/',
             discription: 'A responsive webiste to make deposit and make transactions.',
             image: banking
         },
