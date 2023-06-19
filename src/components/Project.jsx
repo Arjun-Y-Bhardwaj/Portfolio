@@ -9,7 +9,7 @@ export default function Project() {
         {
             id: uuidv4(),
             name: 'Todo App',
-            link: 'https://github.com/Arjun-Y-Bhardwaj/Todo-List'it,
+            link: 'https://github.com/Arjun-Y-Bhardwaj/Todo-List',
             discription: 'A todo list made using HTML, CSS and JAVASCRIPT.',
             image: todo
         },
