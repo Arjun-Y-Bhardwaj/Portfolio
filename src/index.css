@@ -1,0 +1,76 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Exo+2&display=swap');
+
+body,
+body::before,
+body::after {
+  font-family: 'Exo 2', sans-serif;
+}
+
+.nav-items{
+    @apply lg:text-xl sm:text-4xl text-black cursor-pointer hover:scale-150 ease-linear duration-150 bg-purple-400 shadow-lg font-bold !important;
+}
+.input-box{
+    @apply block focus:outline-none text-black p-2 w-3/5 bg-purple-300 border-b-2 border-solid border-black placeholder:text-purple-950 !important;
+}
+.textarea-box{
+    @apply  block focus:outline-none text-black p-2 w-3/5 h-40 bg-purple-300 border-b-2 border-solid border-black placeholder:text-purple-950;
+}
+
+.link-icon{
+    @apply text-2xl hover:text-fuchsia-700  inline-block mr-[6vh] !important;
+}
+
+.typing-effect {
+    display: block;
+    overflow: hidden;
+    white-space: nowrap;
+    /* border-right: black solid 2px; */
+}
+
+.developer-anim{
+    width: 9ch;
+    animation: typing 3s steps(100, end) infinite, blinking 0.5s infinite;
+    
+}
+.programmer-anim{
+    width: 14ch;
+    animation: typing 3s steps(100, end) infinite, blinking 0.5s infinite;
+    
+}
+
+.project-div{
+    @apply inline-block bg-pink-300 ;
+}
+
+@keyframes typing {
+    from {
+        width: 0;
+    }
+}
+
+@keyframes blinking {
+    50% {
+        border-color: transparent;
+    }
+}
+
+.animate-project{
+    animation: smallbig 2s infinite ease-in-out both;
+}
+.animate-project:hover{
+    animation-play-state: paused;
+}
+
+@keyframes smallbig{
+    0%{
+        scale:1;
+    }
+    50% {
+        scale:1.25;
+    }
+}
+
+  
