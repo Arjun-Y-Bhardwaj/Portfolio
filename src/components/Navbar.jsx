@@ -1,9 +1,9 @@
 import React from 'react'
 
-import { RxHome } from 'react-icons/Rx'
-import { BsPerson } from 'react-icons/Bs'
-import { AiOutlineFundProjectionScreen } from 'react-icons/Ai'
-import { BiPhoneCall } from 'react-icons/Bi'
+import { RxHome } from 'react-icons/rx'
+import { BsPerson } from 'react-icons/bs'
+import { AiOutlineFundProjectionScreen } from 'react-icons/ai'
+import { BiPhoneCall } from 'react-icons/bi'
 
 import { Link } from 'react-scroll'
 export default function Navbar() {
