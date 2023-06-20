@@ -19,7 +19,7 @@ export default function Contact() {
                 </div>
             </div>
             <div className='absolute bottom-45 left-1/2 h-3/4 w-1/3 bg-purple-800 rounded-lg z-0 shadow-purlple-600 shadow-lg'>
-            <form action="mailto:arjunyiannisbhardwaj@gmail.com" method="get" enctype="text/plain"
+            <form action="mailto:arjunyiannisbhardwaj@gmail.com" method="post" enctype="text/plain"
 
                     className='flex flex-col items-center mt-12 gap-4'
                 >
@@ -29,7 +29,7 @@ export default function Contact() {
                     <input type="email" placeholder='Enter your email'
                         className='input-box'
                     />
-                    <textarea type="text" placeholder='Enter your message'
+                    <textarea name='message' id='message'  placeholder='Enter your message'
                         className='textarea-box'
                     />
                     <input type="submit" value='Send' className='bg-purple-900 px-6 py-2 rounded-xl text-white cursor-pointer hover:bg-purple-400 hover:text-purple-950 linear duration-100 shadow-sm shadow-black' />
