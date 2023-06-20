@@ -14,8 +14,8 @@ export default function About() {
                 <div className='ml-20 h-full flex flex-col justify-between bg-purple-300 p-4 rounded-xl'>
                     <div>
                     <h1 className='text-3xl font-bold text-center'>ABOUT ME</h1>
-                    <p className='text-xl mt-4'>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore impedit, perspiciatis dolore velit exercitationem quam magni modi culpa itaque consequuntur mollitia laborum officia nisi nobis? Consequuntur, deleniti, nam repudiandae impedit dignissimos dolorum et facilis repellendus doloribus quia veniam sapiente asperiores.
+                    <p className='text-xl mt-4 leading-9'>
+                    I'm a front-end developer and competitive programmer. I love creating user-friendly websites. Problem-solving and efficient coding are my passions. I stay up-to-date with the latest trends and technologies to continuously improve my skills. I pay close attention to detail and strive for visually appealing designs.
                     </p>
                     </div>
                     <div className=' gap-x-[3vw] mb-10 text-center'>

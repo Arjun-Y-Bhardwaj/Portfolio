@@ -4,7 +4,7 @@ export default function Header() {
     return (
         <div
             id='header'
-            className='inset-0 fixed h-12 w-full bg-slate-900'
+            className='inset-0 fixed h-12 w-full bg-slate-900 z-50'
         >
             <div className='mx-20 text-yellow-200 flex flex-row justify-between'>
                 <div className='flex flex-col items-center'>

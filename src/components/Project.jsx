@@ -9,7 +9,7 @@ export default function Project() {
         {
             id: uuidv4(),
             name: 'Todo App',
-            link: 'https://github.com/Arjun-Y-Bhardwaj/Todo-List',
+            link: 'https://todo-ayb.netlify.app/',
             discription: 'A todo list made using HTML, CSS and JAVASCRIPT.',
             image: todo
         },
@@ -29,7 +29,7 @@ export default function Project() {
                         {project.name}
                     </div>
                     <a href={project.link} className="animate-project">
-                        <FaExternalLinkAlt className='text-2xl hover:scale-125 duration-150 ease-out' />
+                        <FaExternalLinkAlt className='text-2xl hover:scale-125 duration-150 ease-out z-0' />
                     </a>
                 </div>
                 <p className='text-xl m-2'>

@@ -10,7 +10,7 @@ export default function Contact() {
                 <div className='ml-20 mt-40 w-1/5'>
                     <div className='mt-[-8vh] '>
                         <h1 className='text-2xl font-bold  '>EMAIL ID</h1>
-                        <p className='text-xl font-bold'>arjunyiannisbhardwaj@gmail.com</p>
+                        <p className='text-xl font-bold' >arjunyiannisbhardwaj@gmail.com</p>
                     </div>
                     <div className='mt-[8vh] '>
                         <h1 className='text-2xl font-bold'>PHONE NUMBER</h1>
@@ -32,7 +32,7 @@ export default function Contact() {
                     <textarea type="text" placeholder='Enter your message'
                         className='textarea-box'
                     />
-                    <input type="submit" value='Send' className='bg-purple-900 px-6 py-2 rounded-xl text-white cursor-pointer hover:bg-blue-400 hover:text-blue-800 linear duration-100' />
+                    <input type="submit" value='Send' className='bg-purple-900 px-6 py-2 rounded-xl text-white cursor-pointer hover:bg-purple-400 hover:text-purple-950 linear duration-100 shadow-sm shadow-black' />
                     
                 </form>
             </div>

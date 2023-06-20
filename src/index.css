@@ -10,7 +10,7 @@ body::after {
 }
 
 .nav-items{
-    @apply lg:text-xl sm:text-4xl text-black cursor-pointer hover:scale-150 ease-linear duration-150 bg-purple-400 shadow-lg font-bold !important;
+    @apply text-xl text-black cursor-pointer hover:scale-150 ease-linear duration-150 bg-purple-400 shadow-lg font-bold !important;
 }
 .input-box{
     @apply block focus:outline-none text-black p-2 w-3/5 bg-purple-300 border-b-2 border-solid border-black placeholder:text-purple-950 !important;
@@ -20,7 +20,7 @@ body::after {
 }
 
 .link-icon{
-    @apply text-2xl hover:text-fuchsia-700  inline-block mr-[6vh] !important;
+    @apply text-3xl hover:text-fuchsia-700  inline-block mr-[7vh] !important;
 }
 
 .typing-effect {
@@ -59,6 +59,7 @@ body::after {
 
 .animate-project{
     animation: smallbig 2s infinite ease-in-out both;
+    color: rgb(223, 176, 239);
 }
 .animate-project:hover{
     animation-play-state: paused;
