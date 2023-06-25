@@ -29,7 +29,7 @@ export default function Home() {
             </div>
             <img
                 src={myPhoto}
-                className=' h-3/5 rounded-full'
+                className=' h-3/5 rounded-full shadow-md  shadow-fuchsia-400'
             />
         </div>
     )
